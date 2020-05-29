@@ -1,0 +1,253 @@
+<html>
+<head>
+<title>Atributos de la etiqueta video</title>
+    
+<link rel="stylesheet" href="../../resources/css generales/back_button.css">
+<link rel="stylesheet" href="../../resources/icon/ico.css">
+    <style type="text/css">
+        .degra{
+            
+            -webkit-filter: blur(3px);
+            
+        }
+    </style>
+        
+    <style type="text/css">
+   .fond{
+    
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+    height: 100%; 
+    width: auto;
+    background-repeat: non-repeat;
+       
+}
+</style>
+    
+    <style type="text/css">
+    
+        .bot{
+            font: bold 12px Century Gothic;
+            text-decoration: none;
+            color: #20B2AA;
+            border: 4px solid #20B2AA;
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+            transition: background .4s,color .4s;
+        }
+        
+        .bot:hover{
+            background:#20B2AA;
+            color:#FFFFFF;
+        }
+    
+    </style>
+    
+    <script> 
+        
+       
+function updateBackground() {
+screenWidth = $(window).width();
+screenHeight = $(window).height();
+var bg = jQuery("#bg");
+
+// Proporcion horizontal/vertical. En este caso la imagen es cuadrada
+ratio = 1;
+
+if (screenWidth/screenHeight > ratio) {
+$(bg).height("auto");
+$(bg).width("100%");
+} else {
+$(bg).width("auto");
+$(bg).height("100%");
+}
+
+// Si a la imagen le sobra anchura, la centramos a mano
+if ($(bg).width() > 0) {
+$(bg).css(‘left’, (screenWidth – $(bg).width()) / 2);
+}
+}
+$(document).ready(function()) {
+// Actualizamos el fondo al cargar la pagina
+updateBackground();
+$(window).bind("resize", function() {
+// Y tambien cada vez que se redimensione el navegador
+    
+updateBackground();
+});
+});
+
+    
+    </script>
+    
+    <link rel="stylesheet" href="../../resources/css generales/back_button.css">
+<link rel="stylesheet" href="../../resources/icon/ico.css">
+
+</head>
+<body style="margin: 0px; background-color: #66999;">
+
+                  <!-- boteon back -->
+                  <div class="back_content">
+                    <a class="back icon-chevron-thin-left" href="../../Portada de inidades 2.html"></a>
+                </div>
+    
+    
+    <img src="r/fonds2.jpeg" alt="Fondo" id="bg" class="fond degra" style="height: auto; width: 100%; left: 0px;">
+    
+
+<br><br><br>
+<table bgColor="#FFFFFF" width="46%" align="center" style="border-radius: 20px; max-width: 1300px; min-width:570px"><tr><td>   
+<table bgColor="#FFFFFF" border="0" align="center" width="95%" style="padding:5%; ">
+    
+    
+    
+    <tr>
+        
+      <td>
+        <p> <font  size="6", color="#000000", face="Century Gothic">
+       <center><strong>Video tutorial</strong></center>
+        </font>
+        </p>
+        </td>  
+        
+    </tr>
+    
+    <tr>
+        
+      <td>
+        <p> <br>
+        </p>
+        </td>  
+        
+    </tr>
+    
+    <tr>
+        <td align="center">
+            
+            <table bgColor="#0000FF" align="center" style="border-radius: 20px" width="89%">
+            
+                <tr>
+                    <td style="margin-left:15px; padding: 10px; margin-right: 15px;">
+                       <ul> <font size="4" color="#FFFFFF" face="Century Gothic" align="justify"><p>En este video veremos la construccion de un electroscopio y su funcionamiento con las cargas estaticas.<br> Las cargas estaticas ya sean positivas o negativas se producen cuado un electron pierde electrones (+) o cuando gana electones (-).Ahi 3 maneras en las que este fenomeno se puede presentar; <li>Por frotamiento</li><br> <li>Por contacto</li> <br> <li>Por induccion</li><br>Los 3 respetando la ley de la consevacion de la carga, donde dise que la carga no se crea ni se destruye.
+                        </p></font></ul>
+                    </td>
+                </tr>
+            
+            </table>
+            
+        </td>
+    </tr>
+    
+   <tr>
+        
+      <td>
+        <p> <br><br>
+        </p>
+        </td>  
+        
+    </tr>
+    
+     <tr>
+        <td align="center">
+            <video style="border-radius: 20px;" width="89%" height="auto" autoplay controls>
+                <source src="r/video1.0.mp4" type="video/mp4">
+                Formato de video no compatible.
+            </video>
+        </td>
+    </tr>
+    
+    <tr>
+        
+      <td align="center">
+          <p> <font size="4" color="#000000" face="Century Gothic" align="center"> Video tutorial de como hacer un electrscopio. </font></p>
+        </td>  
+        
+    </tr>
+    
+    <tr>
+        
+      <td>
+        <p> <br>
+        </p>
+        </td>  
+        
+    </tr>
+    
+    <tr>
+        <td>
+            
+            <table width="40%" border="2" bgColor="#FF0000" align="center" border="5" style="border-radius: 4px;">
+<tr align="center">
+<td>
+Nombre 
+</td><td>
+Grupo 
+</td>
+</tr>
+<tr align="center">
+<td>
+Chavez Juarez Rafael
+</td><td>
+4APGM
+</td>
+</tr>
+</table>
+
+            
+        </td>
+    </tr>
+    
+    <tr>
+        
+      <td>
+        <p> <br><br><br>
+        </p>
+        </td>  
+        
+    </tr>
+    
+    <tr align="center">
+        
+        <table align="center" wildth="80%">
+          <tr wildth="100%"> <td align="center" wildth="50%">
+            <a  href="1.8.2%20Atributos.html" class="bot">Atributos de la etiqueta video</a>
+        </td>
+        <td align="center" wildth="50%">
+            <a href="1.8.3%20Compatibilidad%20de%20formatos%20de%20video%20en%20html.html" class="bot">Formatos compatibles con HTML</a>
+        </td></tr> 
+        </table>
+        
+    </tr>
+    
+     <tr>
+        
+      <td>
+        <p> <br><br>
+        </p>
+        </td>  
+        
+    </tr>
+    
+    <tr align="center">
+        <td ><a href="../../Portada%20de%20inidades%202.html" class="bot">Regresar</a>
+        </td>
+    </tr>
+    
+   
+    <tr>
+        
+      <td>
+        <p> <br><br><br>
+        </p>
+        </td>  
+        
+    </tr>
+    
+    
+    </table></td></tr></table>
+           <br><br><br>
+
+</body>
+</html>

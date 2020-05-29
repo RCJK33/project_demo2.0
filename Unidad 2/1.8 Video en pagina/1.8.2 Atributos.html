@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>Atributos de la etiqueta video</title>
+
+ <link rel="stylesheet" href="../../resources/css generales/back_button.css">
+ <link rel="stylesheet" href="../../resources/icon/ico.css">
+    <style type="text/css">
+        .degra{
+            
+            -webkit-filter: blur(3px);
+            
+        }
+    </style>
+    
+    
+    <style type="text/css">
+   .fond{
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+       background-repeat: no-repeat;
+       
+}
+</style>
+    
+    <style type="text/css">
+    
+        .bot{
+            font: bold 12px Century Gothic;
+            text-decoration: none;
+            color: #20B2AA;
+            border: 4px solid #20B2AA;
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+            transition: background .4s,color .4s;
+        }
+        
+        .bot:hover{
+            background:#20B2AA;
+            color:#FFFFFF;
+        }
+    
+    </style>
+    <link rel="stylesheet" href="../../resources/css generales/back_button.css">
+    <link rel="stylesheet" href="../../resources/icon/ico.css">
+    
+</head>
+<body >
+
+              <!-- boteon back -->
+              <div class="back_content">
+                <a class="back icon-chevron-thin-left" href="../../Portada de inidades 2.html"></a>
+            </div>
+
+<img src="r/fonds2.jpeg" alt="Fondo" id="bg" class="fond degra" style="height: auto; width: 100%; left: 0px;">
+
+<br><br><br>
+<table bgColor="#FFFFFF" width="46%" align="center" style="border-radius: 20px; max-width: 1300px; min-width:370px"><tr><td>   
+<table bgColor="#FFFFFF" border="0" align="center" width="95%" style="padding:5%;">
+    
+    
+
+    <tr>
+        
+      <td>
+        <p> <font  size="6", color="#000000", face="Century Gothic">
+       <center><strong>Atributos de la etiqueta &#60;video&#62;</strong></center>
+        </font>
+        </p>
+        </td>  
+        
+    </tr>
+    
+     <tr>
+        
+      <td>
+        <p> <br><br>
+        </p>
+        </td>  
+        
+    </tr>
+    
+    <tr><td><font size="3" color="#000000" face="Century Gothic">La etiqueta &lt;video&gt; tiene varios atributos que podemos usar:</font>
+        </td>
+    </tr>
+    
+     <tr>
+        
+      <td>
+        <p> <br><br>
+        </p>
+        </td>  
+        
+    </tr>
+    
+    <tr>
+        <td>
+            <table align="center" width="100%" height="350px" borderColor="#000000"  border="1" style="border-radius: 12px;" >
+<thead bgColor="#20B2AA">
+<tr  >
+<th>Atributo</th>
+<th>Valor</th>
+<th>Descripci&oacute;n</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>src</td>
+<td><em>Direcci&oacute;n URL</em></td>
+<td>Video a reproducir. Obligatoria si actua como etiqueta contenedora.</td>
+</tr>
+<tr>
+<td>poster</td>
+<td><em>Direcci&oacute;n URL</em></td>
+<td>Muestra una imagen a modo de presentaci&oacute;n.</td>
+</tr>
+<tr>
+<td>preload</td>
+<td><strong>auto</strong> | metadata | none</td>
+<td>Indica como realizar la precarga del video.</td>
+</tr>
+<tr>
+<td>mediagroup</td>
+<td><em>nombre</em></td>
+<td>Establece un nombre para un grupo de contenidos multimedia.</td>
+</tr>
+<tr>
+<td>autoplay</td>
+<td>-</td>
+<td>Comienza a reproducir el video autom&aacute;ticamente.</td>
+</tr>
+<tr>
+<td>loop</td>
+<td>-</td>
+<td>Vuelve a iniciar el video cuando finaliza su reproducci&oacute;n (bucle).</td>
+</tr>
+<tr>
+<td>muted</td>
+<td>-</td>
+<td>Establece el video sin sonido (silenciado).</td>
+</tr>
+<tr>
+<td>controls</td>
+<td>-</td>
+<td>Muestra los controles de reproducci&oacute;n. Por defecto no se muestran.</td>
+</tr>
+<tr>
+<td>width</td>
+<td><em>tama&ntilde;o</em></td>
+<td>Indica el tama&ntilde;o de ancho del video.</td>
+</tr>
+<tr>
+<td>height</td>
+<td><em>tama&ntilde;o</em></td>
+<td>Indica el tama&ntilde;o de alto del video.</td>
+</tr>
+</tbody>
+</table>
+        </td>
+    
+    </tr>
+    
+     <tr>
+        
+      <td>
+        <p> <br><br>
+        </p>
+        </td>  
+        
+    </tr>
+    
+    <tr><td>
+        <p align="justify"><font size="3" color="#000000" face="Century Gothic"> Un primer ejemplo muy b&aacute;sico para colocar un video en una página web&#58; <br> </font></p>
+        </td>
+    </tr> 
+    <tr><td>
+        <p align="center"><br><font align="center" size="3" color="#000000" face="Century Gothic">  <strong>&#60;video&#62; src&#61;&#34;video.mp4&#34; width&#61;&#34;640&#34; height&#61;&#34;480&#34;&#62;&#60;&#47;video&#62;</strong></font></p>
+        </td>
+    </tr>
+    <tr><td>
+        <p align="justify"><br><font  size="3" color="#000000" face="Century Gothic"> Sin embargo, esto mostrar&aacute; el primer fotograma del video, con un tama&ntilde;o de 640x480, pero se ver&aacute; como una imagen, ya que no muestra los controles del video y tampoco tiene la autoreproducci&oacute;n activada. Podr&iacute;amos solucionarlo indicando los atributos controls o autoplay. </font></p>
+        </td>
+    </tr>
+    <tr><td>
+        <p ><br><br><font align="justify" size="3" color="#000000" face="Century Gothic"> Otro ejemplo b&aacute;sico para colocar videos en una p&aacute;gina&#58; </font></p>
+        </td>
+    </tr>
+    <tr><td>
+        <p align="center"><br><font align="center" size="3" color="#000000" face="Century Gothic">  <strong>&#60;video&#62; src&#61;&#34;video.webm&#34; poster&#61;&#34;presentacion.jpg&#34; controls&#62;&#60;&#47;video&#62;<br>
+&#60;video&#62; src&#61;&#34;video.mp4&#34; autoplay muted loop&#62;&#60;&#47;video&#62;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></font></p>
+        </td>
+    </tr>
+    <tr><td>
+        <p align="justify"><br><font  size="3" color="#000000" face="Century Gothic"> En este caso cargamos un video, pero que no se mostrar&aacute; porque se ha indicado que se utilice una imagen de presentaci&oacute;n que se mostrar&aacute; hasta que el usuario pulse en el bot&oacute;n de reproducir de los controles. En el segundo ejemplo, tenemos un video que se reproduce autom&aacute;ticamente al cargar la p&aacute;gina, en silencio y en bucle, inici&aacute;ndose una y otra vez.</font></p>
+        </td>
+    </tr>
+    
+   
+    
+    
+    <tr>
+        
+      <td>
+        <p> <br><br>
+        </p>
+        </td>  
+        
+    </tr>
+    
+    <tr align="center">
+        
+        <td align="center" wildth="50%">
+            <a href="1.8.1%20video.html" class="bot">Regresar</a>
+        </td>
+        
+    </tr>
+    
+    
+    
+    
+    
+    </table></td></tr></table>
+           <br><br><br>
+
+</body>
+</html>
