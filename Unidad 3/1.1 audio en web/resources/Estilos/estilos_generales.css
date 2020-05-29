@@ -1,0 +1,189 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.fondo{
+    
+    
+    position: fixed;
+	z-index: -500;
+	top: 0;
+	left: 0;
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    filter: blur(2px);
+ 
+}
+
+.esp{
+    
+    z-index: 99;
+    display: inline-block;
+    height: 50px;
+    
+}
+
+
+.subcontent{
+    
+    margin: 0 auto;
+    width: 100%;
+    min-width: 450px;
+    max-width: 780px;
+    align-content: center;
+    background-color: white;
+    padding: 58px;
+    border-radius: 17px;
+   
+        
+    
+} 
+
+.content{
+    
+    display: inline-flexbox;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 57%;
+    min-width: 450px;
+    max-width: 780px;
+    align-content: center;
+    border-radius: 17px;
+    z-index: 8009;
+        
+    
+} 
+
+#particles-js{
+    
+    height: 100vh;
+    width: 100%;
+    top: 0;
+	left: 0;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.he1{
+    
+    text-align: justify;
+    color: black;
+    font-size:17;
+    font-family: "Century Gothic";
+    font-style: normal;
+    
+     
+}
+
+.he2{
+    
+    text-align: center;
+    color: black;
+    font-family: "Century Gothic";
+    font-size:30;
+            
+}
+
+.he3{
+    
+    text-align: center;
+    color: white;
+    font-family: "Century Gothic";
+    font-size:16;
+            
+}
+
+.menu{
+
+    position: fixed;
+    left: 19px;
+    top: 37%;
+    z-index: 9000;
+    
+}
+
+.menu ul {
+
+    list-style: none;
+
+}
+
+.menu ul li a {
+ 
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    padding: 13px 18px;
+    text-decoration: none;
+    font-size: 15;
+    width: auto;
+    -webkit-transition: color 5000ms ease;
+    -webkit-transition: padding 450ms ease;
+   
+
+    
+}
+
+.indic {
+
+    display: none;
+    visibility: hidden;
+       
+}
+
+.bordear {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.med{
+
+    border-radius: 0px 0px 0px 0px;
+
+}
+
+.bordeab {
+    border-radius: 0px 0px 15px 15px;
+}
+
+.menu ul li a:hover {
+
+    width: auto;
+    padding: 16px 27px;
+    background: #000;
+    font-size: 17;
+    color:#fff;
+    
+
+}
+
+.med:hover {
+    border-radius: 0px 15px 15px 0px;
+}
+
+
+.bordear:hover {
+    border-radius: 15px 15px 15px 0px;
+}
+
+.bordeab:hover {
+    border-radius: 0px 15px 15px 15px;
+}
+
+.menu ul li a:hover .indic {
+
+    display: inline-block;
+    visibility: visible;
+
+}
+
+
+ 

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-900px, initial-scale=1.0">
+    <title>Atributos de tablas</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .titulo{
+            margin: 20px;
+            padding: 5px;
+        }
+
+        .info{
+            margin: 40px;
+            padding: 27px;
+        }
+
+       .tabla{
+           margin: 0 auto;
+       }
+
+       .ti{
+           font-family: "Century Gothic";
+           font-size: 31px;
+           text-align: center;
+       }
+
+       .in{
+           font-family: "Century Gothic";
+           font-size: 17px;
+           text-align: justify;
+       }
+
+       .lista{
+        margin: 10px 30px;
+       }
+    </style>
+
+<link rel="stylesheet" href="../resources/css generales/back_button.css">
+<link rel="stylesheet" href="../resources/icon/ico.css">
+
+</head>
+<body>
+
+      <!-- boteon back -->
+      <div class="back_content">
+        <a class="back icon-chevron-thin-left" href="../Portada de inidades 2.html"></a>
+    </div>
+
+
+    <div>
+        <div class="titulo">
+            <p class="ti">Etiqueta &#60;TABLE&#62;</p>
+        </div>
+        <div class="info">
+            <p class="in">La etiqueta tabla sirve para organizar, representar datos en 2 o mas dimenciones, sin envargo tambien puede ser usada para divesas cosas como hacer el diseño de un pagina, aunque este ultimo no es recomendable por que se volveria algo muy inisetable y se considera en HTML como un grupo de celdas organizadas en filas y columnas en donde conoceremos mas adelante</p><br>
+            <p class="in">Atributo <strong>align:</strong> Este atributo enumerativo indica como va a encontrarse alineada la tabla respecto al contenido del documento en cuesti&oacute;n, pudiendo tener los siguientes valores&#58;</p><br>
+            <div>
+                 <ul>
+                    <li><p class="in"><strong>left</strong>,significa que la tabla ser&aacute; mostrada a la izquierda del documento&#59;</p></li>
+                    <li> <p class="in"><strong>center</strong>,significa que la tabla ser&aacute; mostrada al centro del documento&#59;</p></li>
+                    <li>  <p class="in"><strong>right</strong>,significa que la tabla ser&aacute; mostrada a la derecha del documento.</p></li>
+                 </ul> 
+            </div>
+            <p class="in">Este metodo de mostrado no debria ser usado debido a que es obsoleto y en su lugar se usara en codigo css las propiedades text&#45;align y vertical&#45;align</p><br>
+            <p class="in">Atributo <strong>bgcolor</strong>, se usa para definir el color de fondo de una tabla o celda haciendo uso de del codigo hexadecimal como es el fotmato sRGB &#40;bajo el prefijo &#35;&#41;</p>
+            <p class="in">Este metodo tambien es obsoleto y en siu lugar se usara en codigo css backgroud&#45;color</p><br>
+            <p class="in">Atributo <strong>border</strong> Esre atributo define el tamaño de los marcos de las celdas y tabla si este valor equivale a 0 es nulo y no se mostrara nada</p>
+            <p class="in">Este metodo tambien es obsoleto y poco flexible en su lugar se usara en codigo css. . A fin de dar un efecto similar al atributo, las propiedades CSS nativas border, border&#45;color, border&#45;width y border&#45;style deben ser usadas.</p><br>
+            <p class="in">Atributo<strong> cellpadding y cellspacing</strong> este atributo define el espacio entre su borde y el contenido de la celda, si fuera la longitud de un pixel, dicho espacio se aplicara a cada lado de la celda</p>
+            <p class="in">Este metodo es obsoleto por lo que en su lugar se recomiendda usar propiedades del codigo CSS en este caso el border&#45;collapse con el valor collapse en el mismo elemento &#60;table&#62;, y la propiedad padding en el elemento &#60;td&#62;.</p>
+        </div>    
+        <div class="tabla"></div>
+    </div>
+    
+</body>
+</html>

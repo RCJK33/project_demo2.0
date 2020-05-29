@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=900px, initial-scale=1.0">
+    <title>Etiquetas TD TR TH</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .titulo{
+            margin: 20px;
+            padding: 5px;
+        }
+
+        .info{
+            margin: 40px;
+            padding: 27px;
+        }
+
+       .tabla{
+           margin: 0 auto;
+       }
+
+       .ti{
+           font-family: "Century Gothic";
+           font-size: 31px;
+           text-align: center;
+       }
+
+       .in{
+           font-family: "Century Gothic";
+           font-size: 17px;
+           text-align: justify;
+       }
+    </style>
+
+    <link rel="stylesheet" href="../resources/css generales/back_button.css">
+    <link rel="stylesheet" href="../resources/icon/ico.css">
+</head>
+<body>
+    
+  <!-- boteon back -->
+  <div class="back_content">
+    <a class="back icon-chevron-thin-left" href="../Portada de inidades 2.html"></a>
+</div>
+
+<div>
+    <div class="titulo"><p class="ti">Etiquetas &#60;tr&#62;,  &#60;td&#62; y &#60;th&#62;</p></div>
+    <div class="info">
+        <p class="in">Etiqueta <strong>&#60;tr&#62;</strong> Como hemos visto en el encabezado las filas se escriben gracias a las etiquetas &#60;tr&#62; con su correspondiente cierre &#60;&#47;tr&#62;. El contenido de las columnas que est&aacute;n dentro de la fila lo podemos al&iacute;near tanto horizontal como verticalmente.</p>
+        <p class="in">Para alinearlo verticalmente utilizaremos el atributo <Strong>valign</Strong> para poder alinearlo arriba de la celda <strong>top</strong>, en el centro <strong>middle</strong> o debajo <strong>bottom</strong>.
+
+            Para alinearlo horizontalmente utilizaremos el atributo <strong>align</strong>. Con este atributo podremos alinear el contenido de las celdas en el centro <strong>center</strong>, a la izquierda <strong>left</strong>, a la derecha <strong>right</strong> o justificado <strong>justify</strong>.</p><br>
+        <p class="in">Etiqueta <strong>&#60;td&#62;</strong></p>
+        <p class="in">Las celdas que van dentro de cada fila las tenemos que escribirlas con la etiqueta &#60;td&#62; y su correspondiente cierre &#60;&#47;td&#62;.</p>
+        <p class="in">Al igual que en las filas, en las celdas podemos definir el la alineaci&oacute;n del contenido que est&aacute; dentro con los atributos <strong>valign</strong> y <strong>align</strong>.</p>
+        <p class="in">Las celdas poseen unos atributos que nos ayudan a poder agrupar tantas celdas o tantas columnas como indiquemos en &eacute;l. Para agrupar celdas utilizar&iacute;amos el atributo <strong>colspan</strong> y para agrupar celdas el atributos <strong>rowspan</strong>.</p>
+        <p class="in">Por ejemplo, para agrupar en una celda 2 columnas tenemos que escribir&#58; &#60;td colspan&#61;&#34;2&#34;&#62;&#60;&#47;td&#62;. Y para agrupar dos filas, la indicación ser&iacute;a la siguiente&#58; &#60;td rowspan&#61;&#34;2&#34;&#62;&#60;&#47;td&#62;.</p><br>
+        <p class="in">Etiqueta <strong>&#60;th&#62;</strong></p>
+        <p class="in">Las celdas escritas con la etiqueta &#60;th&#62; y su correspondiente cierre, admiten los mismos atributos que las etiquetas &#60;td&#62; y funcionan de la misma forma, salvo que el contenido que est&eacute; dentro de una etiqueta &#60;th&#62; est&aacute; considerado como el encabezado de la tabla, por lo que se crear&aacute; en negrita y centrado sin que nosotros se lo indiquemos.</p>
+    </div>
+</div>
+
+</body>
+</html>

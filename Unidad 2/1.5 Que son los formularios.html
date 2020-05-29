@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=900px, initial-scale=1.0">
+      <title>Que son los formularios en HTML</title>
+
+      <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+    
+            .titulo{
+                margin: 20px;
+                padding: 5px;
+            }
+    
+            .info{
+                margin: 40px;
+                padding: 27px;
+            }
+    
+           .tabla{
+               margin: 0 auto;
+           }
+    
+           .ti{
+               font-family: "Century Gothic";
+               font-size: 31px;
+               text-align: center;
+           }
+    
+           .in{
+               font-family: "Century Gothic";
+               font-size: 17px;
+               text-align: justify;
+           }
+
+           .lista{
+        margin: 10px 30px;
+       }
+        </style>
+    
+ <link rel="stylesheet" href="../resources/css generales/back_button.css">
+ <link rel="stylesheet" href="../resources/icon/ico.css">
+</head>
+<body>
+
+       <!-- boteon back -->
+  <div class="back_content">
+      <a class="back icon-chevron-thin-left" href="../Portada de inidades 2.html"></a>
+  </div>
+
+  <div>
+        <div class="titulo">
+              <p class="ti">QUe son los formularios en HTML &#60;form&#62;</p>
+        </div>
+        <div class="info">
+              <p class="in">Los elementos y atributos para formularios en HTML5 proveen un mayor grado de marcado semántico que en HTML4 y eliminan gran parte del tedioso trabajo de programar y dise&ntilde;ar que se necesitaba en HTML4. Las funcionalidades de los formularios en HTML5 brindan una experiencia mejor para los usuarios al permitir que los formularios tengan un comportamiento m&aacute;s consistente entre diferentes sitios web y al darle una devoluci&oacute;n inmediata acerca de la informaci&oacute;n ingresada. Tambi&eacute;n proveen esta experiencia a los usuarios que han deshabilitado javascript en sus navegadores.</p><br>
+              <p class="in">El elemento <strong>&#60;form&#62;</strong> tiene una nuevo atributo</p><br>
+              <div class="lista">
+                    <ul>
+                          <li>
+                                <p class="in"><strong>novalidate</strong>&#58; Este atributo previene que el formulario sea validado antes del env&iacute;o.</p>
+                          </li>
+                    </ul>
+              </div>
+              <br>
+              <p class="ti">Sintaxis de HTML para la validaci&oacute;n restringida</p><br>
+              <p class="in">Los siguientes elementos de sintaxis de HTML5 pueden ser usados para restringir datos en el formulario.</p>
+             <div class="lista">
+                   <ul>
+                         <li>
+                               <p class="in">El atributo required en los elementos &#60;input&#62;, &#60;select&#62; y &#60;textarea&#62; indica que se debe ingresar alg&uacute;n dato. &#40;En el elemento &#60;input&#62;, <strong>required</strong> s&oacute;lo se aplica con ciertos valores del atributo type.&#41;</p>
+                         </li>
+                         <br>
+                         <li>
+                               <p class="in">El atributo <strong>pattern</strong> en el elemento &#60;input&#62; restringe el valor para que concuerde con una expresi&oacute;n regular espec&iacute;fica.</p>
+                         </li>
+                         <br>
+                         <li>
+                               <p class="in">Los atributos <strong>min</strong> y <strong>max</strong> del elemento  &#60;input&#62; restringen los valores m&aacute;ximos y m&iacute;nimos que pueden ser ingresados.</p>
+                         </li>
+                         <br>
+                         <li>
+                               <p class="in">El atributo <strong>step</strong> del elemento &#60;input&#62; &#40;cuando se usa en combinaci&oacute;n con los atributos <strong>min</strong> y <strong>max</strong>&#41; restringe la granularidad de los valores ingresados. Un valor que no se corresponda con un valor permitido no será validado.</p>
+                         </li>
+                         <br>
+                         <li>
+                               <p class="in">El atributo <strong>maxlength</strong> de los elementos &#60;input&#62; y &#60;textarea&#62; restringe el máximo n&uacute;mero de caracteres &#40;en puntos de c&oacute;digo unicode&#41; que el usuario puede ingresar.</p>
+                         </li>
+                         <br>
+                         <li>
+                               <p class="in">Los valores <strong>url</strong> y <strong>email</strong> para <strong>type</strong> restr&iacute;ngen el valor para una URL o direcci&oacute;n de correo v&aacute;lida respectivamente.</p>
+                         </li>
+                   </ul>
+             </div>
+        </div>
+  </div>
+      
+</body>
+</html>

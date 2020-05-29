@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=900px, initial-scale=1.0">
+      <title>Etiquetas y atributos adicionales de los formularios</title>
+
+      <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+    
+            .titulo{
+                margin: 20px;
+                padding: 5px;
+            }
+    
+            .info{
+                margin: 40px;
+                padding: 27px;
+            }
+    
+           .tabla{
+               margin: 0 auto;
+           }
+    
+           .ti{
+               font-family: "Century Gothic";
+               font-size: 31px;
+               text-align: center;
+           }
+    
+           .in{
+               font-family: "Century Gothic";
+               font-size: 17px;
+               text-align: justify;
+           }
+
+           .lista{
+        margin: 10px 30px;
+       }
+        </style>
+    
+ <link rel="stylesheet" href="../resources/css generales/back_button.css">
+ <link rel="stylesheet" href="../resources/icon/ico.css">
+
+</head>
+<body>
+
+             <!-- boteon back -->
+  <div class="back_content">
+      <a class="back icon-chevron-thin-left" href="../Portada de inidades 2.html"></a>
+  </div>
+
+  <div>
+        <div class="titulo">
+            <p class="ti">Etiqueta &#60;input&#62;</p>
+        </div>
+        <div class="info">
+              <p class="in">El elemento <strong> &#60;input&#62;</strong> tiene nuevos valores para el atributo <strong>type</strong>.</p><br>
+              <div class="lista">
+                    <ul>
+                          <li>
+                                <p class="in"><strong>search</strong>&#58; El elemento representa una caja de b&uacute;squeda. Los saltos de l&iacute;nea son quitados del valor ingresado pero no se modifica ninguna otra sintaxis.</p>
+                          </li>
+                          <li>
+                                <p class="in"><strong>tel</strong>&#58; El elemento representa un control para editar un n&uacute;mero de teléfono, porque los n&Uacute;meros teléfonicos var&iacute;an ampliamente en el mundo. Puedes usar atributos como <strong>pattern</strong> y <strong>maxlength</strong> para restringir los valores ingresados en la caja.</p>
+                          </li>
+                          <li>
+                                <p class="in"><strong>url</strong>&#58; El elemento representa un control para editar una URL. Se quitan los saltos de l&iacute;nea y espacios en blanco antes y después del valor ingresados.</p>
+                          </li>
+                          <li>
+                                <p class="in"><strong>email</strong>&#58 El elemento representa una direcci&oacute;n de correo electr&oacute;nico. Los saltos de l&iacute;nea se quitan autom&aacute;ticamente del valor ingresado. Puede ingresarse una direcc&oacute;n de correo no v&aacute;lida, pero el campo de ingreso s&oacute;lo funcionar&aacute; si la direcci&oacute;n ingresada satisface la producci&oacute;n ABNF 1*( atext / "." ) "@" ldh-str 1*( "." ldh-str ) donde atext est&aacute; definida en RFC 5322, secci&oacute;n 3.2.3 y ldh-str est&aacute; definida en RFC 1034, secci&oacute;n 3.5.</p>
+                          </li>
+                    </ul>
+              </div>
+              <p class="in">El elemento formmethod tambien tiene nuevos atributos&#58;</p>
+              <div class="lista">
+                    <ul>
+                          <li>
+                                <p class="in"><strong>list</strong>&#58; El ID de un elemento &#60;datalist&#62; cuyo contenido, los elementos &#60;option&#62;, van a ser usados como ayudas y ser&aacute;n mostrados como propuestas en el &aacute;rea de sugerencias del campo input.</p>
+                          </li>
+                          <li>
+                                <p class="in"><strong>pattern</strong>&#58; Una expresi&oacute;n regular contra la que es verificado el valor del control, que puede ser usada con valores de <strong>type</strong> de <strong>text</strong>, <strong>tel</strong>, <strong>search</strong>, <strong>url</strong> y <strong>email</strong>.</p>
+                          </li>
+                          <li>
+                                <p class="in"><strong>formmethod</strong>&#58; Una cadena que indica qu&aacute; m&eacute;todo HTTP &#40;GET, POST, PUT o DELETE&#41; debe ser usado cuando se env&iacute;ar sobrescribe el <strong>method</strong> del elemento  &#60;form&#62;, si se define. El <strong>formmethod</strong> s&oacute;lo se aplica cuando el type es image o submit, y, para los m&eacute;todos PUT y DELETE, sólo funcionar&aacute; con un destino que est&eacute; en el mismo dominio &#40;pol&iacute;tica del mismo origen&#41;.</p>
+                          </li>
+                    </ul>
+              </div>
+              <p class="in"></p>
+              <p class="in"></p>
+        </div>
+  </div>
+      
+</body>
+</html>
