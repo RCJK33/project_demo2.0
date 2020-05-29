@@ -1,0 +1,21 @@
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="70px" height="70px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
+<circle id="Elipse_1188" fill="#A786B3" cx="35" cy="35" r="35"/>
+<g>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="28.15" y1="47.17" x2="41.85" y2="33.47"/>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="28.15" y1="33.47" x2="41.85" y2="47.17"/>
+	
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		23.59,20.54 17.5,20.54 17.5,52.5 52.5,52.5 52.5,20.54 46.41,20.54 	"/>
+	
+		<rect x="23.59" y="17.5" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="4.57" height="6.09"/>
+	
+		<rect x="41.85" y="17.5" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="4.57" height="6.09"/>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="28.15" y1="20.54" x2="41.85" y2="20.54"/>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.5" y1="28.15" x2="52.5" y2="28.15"/>
+</g>
+</svg>

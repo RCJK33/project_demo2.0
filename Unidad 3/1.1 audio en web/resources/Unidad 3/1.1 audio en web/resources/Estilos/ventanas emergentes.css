@@ -1,0 +1,28 @@
+.iconoT{
+
+    font-size: 20px;
+
+}
+
+.he-E{
+
+    
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 13px;
+
+}
+
+.aviso{
+
+padding: 15px 28px;
+display: inline-block;
+position: fixed;
+left: 30px;
+top: 43px;
+background-color: white;
+border-radius: 17px;
+height: 90px;
+width: 300px;
+
+}

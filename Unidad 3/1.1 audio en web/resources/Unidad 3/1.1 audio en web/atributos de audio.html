@@ -1,0 +1,224 @@
+<html>
+    <head>
+        <title>Audio en una pagina web</title>
+        
+        <script src="resources/js/waves.js"></script>
+        <script src="resources/js/waves.min.js"></script>
+
+        <link rel="stylesheet" href="resources/Estilos/estilo_de_tablas.css">
+        <link rel="stylesheet" href="resources/Estilos/estilos_generales.css">
+        <link rel="stylesheet" href="resources/Estilos/loading_pane.css">
+        <link rel="stylesheet" href="resources/Estilos/minim_boton.css">
+        <link rel="stylesheet" href="resources/Estilos/waves.css">
+        <link rel="stylesheet" href="resources/icon/ico.css">
+        <link rel="stylesheet" href="../../resources/css generales/back_button.css">
+        <script type="text/javascript">
+            Waves.init();
+            Waves.attach('.button', ['waves-button', 'waves-float']);
+        </script>  
+        
+    </head>
+
+    
+
+    <body >
+        
+        <div class="content_loading_pane">
+            <div class="loader"></div>
+        </div>
+
+                <!-- boteon back -->
+                <div class="back_content">
+                    <a class="back icon-chevron-thin-left" href="../../Portada de inidades 3.html"></a>
+                </div>
+        
+        <div class="esp"></div>
+        <img class="fondo" src="resources/fondo.jpeg">
+        <div id="particles-js"></div>
+        
+        
+        
+       <div class="content"><table class="subcontent">
+                
+            <tr>
+                <td>
+                   <p class="he2">Atrubutos de la etiqueta &#60;audio&#62;</p>       <br><br>                             
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                       <p class="he1">En versiones anteriores de HTML se usaba una etiqueta HTML obsoleta denominada <strong>&#60;bgsound&#62;</strong> que realizaba algo similar.</p>       <br>                   
+                </td>
+            </tr>
+        
+        
+            <tr>
+                                
+                <td>
+
+                    <p class="he1">La etiqueta <strong>&#60;audio&#62;</strong> tiene varios atributos a nuestra disposición:</p><br>
+             
+                </td>
+            </tr>
+            
+            
+            <tr>
+                <td>                    
+                    <table class="tab_pane">
+                        <thead class="cabeza">
+                        <tr  class="flia">
+                        <th class="celda esq1">Atributo</th>
+                        <th class="celda">Valor</th>
+                        <th class="celda esq2">Descripción</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="flia hop">
+                        <td class="celda">src</td>
+                        <td class="celda"><em>Dirección URL</em></td>
+                        <td class="celda">Audio a reproducir. Obligatoria si actua como etiqueta contenedora.</td>
+                        </tr>
+                        <tr class="flia">
+                        <td class="celda">preload</td>
+                        <td class="celda"><strong>auto</strong> | metadata | none</td>
+                        <td class="celda">Indica como realizar la precarga del audio.</td>
+                        </tr>
+                        <tr class="flia hop">
+                        <td class="celda">mediagroup</td>
+                        <td class="celda"><em>nombre</em></td>
+                        <td class="celda">Establece un nombre para un grupo de contenidos multimedia.</td>
+                        </tr>
+                        <tr class="flia">
+                        <td class="celda">autoplay</td>
+                        <td class="celda">-</td>
+                        <td class="celda">Comienza a reproducir el audio automáticamente.</td>
+                        </tr>
+                        <tr class="flia hop">
+                        <td class="celda">loop</td>
+                        <td class="celda">-</td>
+                        <td class="celda">Vuelve a iniciar el audio cuando finaliza su reproducción (bucle).</td>
+                        </tr>
+                        <tr class="flia">
+                        <td class="celda">muted</td>
+                        <td class="celda">-</td>
+                        <td class="celda">Establece el audio sin sonido (silenciado).</td>
+                        </tr>
+                        <tr  class="flia hop">
+                        <td class="celda esq4">controls</td>
+                        <td class="celda">-</td>
+                        <td class="celda esq3">Muestra los controles de reproducción. Por defecto no se muestran.</td>
+                        </tr>
+                        </tbody>
+                        </table>
+                </td>
+            </tr>
+
+
+            <tr>
+                                
+                <td>
+
+                    <br><p class="he1">Un primer ejemplo muy básico para colocar un audio en nuestra página web:</p><br>
+             
+                </td>
+            </tr>
+
+
+            <tr>
+                                
+                <td>
+
+                    <p class="he1" style="text-align: center;">&#60;audio src&#61;&#34;audio.mp3&#34;&#62;&#60;&#47;audio&#62</p><br>
+             
+                </td>
+            </tr>
+
+            <tr>
+                                
+                <td>
+
+                    <p class="he1">Sin embargo esto no mostrar&aacute; nada visualmente, ni reproducir&aacute; ning&uacute;n sonido. Realmente, el audio est&aacute; ah&iacute;, pero no le hemos indicado el atributo controls para que muestre los controles y que el usuario pueda pulsar el bot&oacute;n «play». Tampoco le hemos colocado el atributo <strong>autoplay</strong>, en cuyo caso tampoco mostrar&iacute;a nada visualmente, pero si que se empezar&iacute;a a escuchar el sonido o pista de m&iacute;sica.</p><br>
+             
+                </td>
+            </tr>
+
+            <tr>
+                                
+                <td>
+
+                    <p class="he1">Otro ejemplos básicos para colocar audios en nuestra página:</p><br>
+             
+                </td>
+            </tr>
+
+
+            <tr>
+                                
+                <td>
+
+                    <p class="he1" style="text-align: center;">&#60;audio src&#61;&#34;audio.mp3&#34; preload&#61;&#34;none&#34; controls&#62;&#60;&#47;audio&#62;</p><br>
+                    <p class="he1" style="text-align: center;">&#60;audio src&#61;&#34;audio.ogg&#34; autoplay loop&#62;&#60;&#47;audio&#62;</p><br>
+             
+                </td>
+            </tr>
+
+            <tr>
+                                
+                <td>
+
+                    <p class="he1">En el primer ejemplo, cargamos un audio en formato MP3, pero indicamos que no precargue nada. Empezar&aacute; a descargarse s&oacute;lo cuando el usuario pulse en los controles de reproducci&oacute;n. Este escenario puede ser interesante para evitar consumo de ancho de banda de archivos que es probable que el usuario no escuche o en dispositivos m&oacute;viles donde las tarifas de datos son costosas. Por otro lado, el segundo ejemplo, carga un archivo de audio en formato OGG y lo reproduce autom&aacute;ticamente y en bucle, de modo que vuelve a empezar cuando termina.</p><br>
+             
+                </td>
+            </tr>
+            
+            
+            <tr>
+                <td>
+                      
+                    <table style="margin: 0 auto; width: 80%;">
+                        
+                        <tr class="no-hop">
+
+                            <td style="padding: 10px; margin: 0 auto;">
+                                <a href="audio en web.html" class="button b1">Anterior</a>
+                            </td>
+
+                            <td style="padding: 5px; margin: 0 auto;">
+                                <a href="formatos compatibles con audio.html" class="button b">Siguiente</a>
+                            </td>
+                        
+                                </tr>   
+                    
+                    </table>
+                    
+                </td>
+            </tr>
+            
+        </table></div>
+
+        <script type="text/javascript">
+            Waves.init();
+            Waves.attach('.button', ['waves-button', 'waves-float']);
+        </script>  
+        
+        
+        
+        <div class="esp"></div>
+        
+        <div class="menu">
+        <ul>
+                
+                <li><a href="audio en web.html" class="bordear icon-note"><p class="indic">&nbsp;&nbsp;&nbsp;&nbsp;Autobiografia</p></a></li>
+                <li><a onclick="alert('Ya es encuentra en esta pagina');" class="med icon-cog"><p class="indic">&nbsp;&nbsp;&nbsp;&nbsp;Atributos de la etiqueta &#60;audio&#62;</p></a></li>
+                <li><a href="formatos compatibles con audio.html" class="bordeab icon-code"><p class="indic">&nbsp;&nbsp;&nbsp;Formatos de audio compatibles</p></a></li>
+            
+        </ul>
+        </div>
+        
+        <script src="resources/js/particles.min.js"></script>
+        <script src="resources/js/parti.js"></script>
+        <script src="resources/js/loadadin_logic.js"></script>
+                
+    </body>
+</html>

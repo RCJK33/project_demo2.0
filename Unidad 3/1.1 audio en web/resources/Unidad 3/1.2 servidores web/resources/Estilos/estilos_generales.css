@@ -1,0 +1,467 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.fondo{
+    
+    
+    background-image: url('../fondo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #664999;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+	z-index: -500;
+    filter: blur(2px);
+ 
+}
+
+.esp{
+    
+    z-index: 99;
+    display: inline-block;
+    height: 5%;
+    
+}
+
+.title{
+padding: 60px;
+text-align: justify;
+
+}
+
+.content{
+
+    overflow: auto;
+    min-width: 430px;
+    max-width: 1700px;
+    align-content: center;
+    display: inline-flexbox;
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    height: 90%;
+    min-height: 608px;
+    border-radius: 17px 11px 11px 17px;
+    z-index: 8009;
+    background-color: rgba(255, 255, 255, 1.0);
+    
+} 
+
+.barra{
+
+    background-color: #ece2d1;
+    width: 150px;
+    height: 6px;
+    border-radius: 7px;
+    border: 0;
+
+}
+
+.primero{
+    background: linear-gradient( #fff4e2, #eee1cc);
+    margin: 0px;
+}
+
+.tercero{
+    background: linear-gradient( #f0e4d0, #e7dac3);
+}
+
+.buton_primero{
+    background-color: #fff;
+    color: #eee1cc;
+    border: 3px solid #FFf;
+    border-radius: 26px;
+    padding: 8px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Century Gothic';
+    font-size: 14x;
+    transition: all .3s ease;
+}
+
+.buton_primero:hover{
+    background-color: #eee1cc;
+    color: white;
+    border: 3px solid #fff;
+    border-color: white;
+}
+
+.buton_segundo{
+    background-color: #eee1cc;
+    color: white;
+    border: 3px solid #eee1cc;
+    border-radius: 26px;
+    padding: 8px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Century Gothic';
+    font-size: 14x;
+    transition: all .3s ease;
+}
+
+.buton_segundo:hover{
+    background-color: #fff;
+    color: #eee1cc;
+    border: 3px solid #eee1cc;
+}
+
+.buton_tercero{
+    background-color: #fff;
+    color: #e7dac3;
+    border: 3px solid #FFf;
+    border-radius: 26px;
+    padding: 8px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Century Gothic';
+    font-size: 14x;
+    transition: all .3s ease;
+}
+
+.buton_tercero:hover{
+    background-color: #e7dac3;
+    color: white;
+    border: 3px solid #fff;
+    border-color: white;
+}
+
+#particles-js{
+    
+    height: 100vh;
+    width: 100%;
+    top: 0;
+	left: 0;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.tt{
+    
+    text-align: left;
+    color: black;
+    font-size:41px;
+    font-weight: 900;
+    font-family: "Century Gothic";
+    
+}
+
+.norm{
+    
+    text-align: justify;
+    color: black;
+    font-family: "Century Gothic";
+    font-size:17px;
+                
+}
+
+.norm2{
+    
+    text-align: justify;
+    color: rgb(73, 73, 73);
+    font-family: "Century Gothic";
+    font-size:18px;
+                
+}
+
+.he3{
+    
+    text-align: center;
+    color: white;
+    font-family: "Century Gothic";
+    font-size:16;
+            
+}
+.norm3{
+    
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-family: "Century Gothic";
+    font-size:18px;
+                
+}
+
+.menu{
+
+    position: fixed;
+    left: 19px;
+    top: 37%;
+    z-index: 9000;
+    
+}
+
+.menu ul {
+
+    list-style: none;
+
+}
+
+.menu ul li a {
+ 
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    padding: 13px 18px;
+    text-decoration: none;
+    font-size: 18px;
+    width: auto;
+    transition: color 5000ms ease;
+    transition: padding 450ms ease;
+   
+}
+
+.indic {
+
+    display: none;
+    visibility: hidden;
+       
+}
+
+.bordear {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.med{
+
+    border-radius: 0px 0px 0px 0px;
+
+}
+
+.bordeab {
+    border-radius: 0px 0px 15px 15px;
+}
+
+.bordear:hover {
+    border-radius: 15px 15px 15px 0px;
+}
+
+.med:hover {
+    border-radius: 0px 15px 15px 0px;
+}
+.bordeab:hover {
+    border-radius: 0px 15px 15px 15px;
+}
+
+.menu ul li a:hover {
+
+    width: auto;
+    padding: 15px 25px;
+    background: #000;
+    font-size: 20px;
+    color:#fff;
+    
+}
+.menu ul li a:hover .indic {
+
+    display: inline-block;
+    visibility: visible;
+    justify-content: center;
+    align-items: center;  
+    width: auto;   
+
+}
+.distri_info{
+    display: flex;
+    flex-direction: row;
+}
+
+.ilustra{
+    display: flex;
+    flex-direction: column;
+    padding: 37px;
+}
+.decora{
+    display: block;
+    width: 250px;
+    height: auto;
+    margin: auto 0;
+}
+ @media screen and (min-width: 1338px){
+
+     
+    .menu ul li a {
+        
+        display: inline-block;
+        color: #000;
+        background: #fff;
+        padding: 13px 18px;
+        text-decoration: none;
+        font-size: 18px;
+        width: 178px;
+        transition: color 5000ms ease;
+        transition: padding 450ms ease;
+       
+    }
+
+    .indic{
+        
+        color: #000;
+        display: inline-block;
+        visibility: visible;
+        justify-content: center;
+        align-items: center;  
+        width: auto; 
+    }
+
+    .menu ul li a:hover .indic {
+        justify-content: center;
+        align-items: center;  
+        width: auto;  
+        color: white; 
+    }
+    .menu ul li a:hover {
+        
+        padding: 15px 25px;
+        background: #000;
+        font-size: 20px;
+        color:#fff;
+        width: 190px;
+    }
+
+    .ondarri,.ondaba{
+        padding: 0;
+    }
+ }
+ @media screen and (max-height:635px){
+    .esp{
+    
+        z-index: 99;
+        display: inline-block;
+        height: 2%;
+        
+    }
+
+} 
+@media screen and (max-width:1270px){
+    .distri_info{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ilustra{
+        display: flex;
+        flex-direction: row;
+        padding: 37px;
+        margin: 15px 0px;
+    }
+    .decora{
+        display: block;
+        width: 50%;
+        height: auto;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+} 
+    @media screen and (max-width:820px){
+        .fondo{
+    
+    
+            background-image: url('');
+            background-color: #fff;
+            z-index: -500;
+            
+         
+        }
+        .esp{
+    
+            z-index: 99;
+            display: inline-block;
+            height: 0px;
+            
+        }
+        .decora{
+            display: block;
+            width: 50%;
+            height: auto;
+            margin-top: 20px;
+            margin: 0 auto;
+        }
+        .distri_info{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .ilustra{
+            display: flex;
+            flex-direction: row;
+            padding: 37px;
+            margin: 15px 0px;
+        }
+
+        .content{
+        
+            overflow: auto;
+            max-width: 1700px;
+            align-content: center;
+            display: inline-flexbox;
+            position: relative;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+            border-radius: 17px 11px 11px 17px;
+            z-index: 8009;
+            background-color: rgba(255, 255, 255, 1.0);
+            
+        } 
+        
+        .primero{
+            background: linear-gradient( #fff4e2, #eee1cc);
+        }
+        
+        .tercero{
+            background: linear-gradient( #f0e4d0, #e7dac3);
+        }
+        
+        #particles-js{
+            
+            height: 0px;
+            width: 0px;
+            top: 0;
+            left: 0;
+            position: fixed;
+            z-index: 1;
+            
+        }
+        
+        .menu{
+        
+            position: fixed;
+            left: 0px;
+            top: 37%;
+            z-index: 9000;
+            
+        }
+         
+        .bordear {
+            border-radius: 0px 15px 0px 0px;
+        }
+        
+        .med{
+        
+            border-radius: 0px 0px 0px 0px;
+        
+        }
+        
+        .bordeab {
+            border-radius: 0px 0px 15px 0px;
+        }
+        
+        .bordear:hover {
+            border-radius: 0px 15px 15px 0px;
+        }
+        
+        .med:hover {
+            border-radius: 0px 15px 15px 0px;
+        }
+        .bordeab:hover {
+            border-radius: 0px 15px 15px 0px;
+        }
+    }
