@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .botn_enlace{
     display: block;
@@ -46,9 +47,8 @@
 
 
     .botn_enlace{
-       
-        padding: 12px 50px;
-        
+        display: block;
+        padding: 12px;
         border-radius: 20px;
         color: black;
         max-width: 0 auto;
@@ -60,23 +60,23 @@
        margin:34px;
     }
     .titul{
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
         font-family: "Century Gothic";
         text-align: center;
     }
     .ti{
-        font-size: 26px;
+        font-size: 22px;
         font-family: "Century Gothic";
         font-weight: 530;
         text-align: center;
     }
     .content{
-        margin: 0 auto;
+        margin: 0;
         padding: 15px;
     }
     .content_botn{
-        padding: 10px 120px;
+        padding: 10px;
     }
 
 }
